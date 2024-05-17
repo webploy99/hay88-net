@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+    background-color: black;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.main .hay88-text{
+    font-size: clamp(0.8rem, 0.6rem + 0.6vw, 1.1rem);
+}
+
+/* responsive 768px */
+@media (max-width: 850px) {
+    .nav-menu {
+        position: absolute;
+        right: 0%;
+        top: -600%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        transition: 0.4s ease-in-out;
+        font-size: 13px;
+        z-index: 1 !important;
+    }
+
+    .active {
+        top: 0% !important;
+    }
+}
+
+.box .box-item {
+    display: none;
+}
+.box .active {
+    display: block;
+}
+
+
+/* btn button */
+.btn {
+    background-color: #e2e2e2;
+    outline: none;
+    text-shadow: -1px -1px 0 #4f4d57, 1px -1px 0 #4f4d57, -1px 1px 0 #4f4d57, 1px 1px 0 #4f4d57, 5px 5px 10px rgba(1, 1, 1, 1);
+    color: #f2f2f2
+}
+.actived,
+.btn:hover {
+    background-image: url(./images/back-button.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+}
