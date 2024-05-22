@@ -16,7 +16,9 @@ html,
 body {
     scroll-behavior: smooth;
 }
-
+.scroll-bar::-webkit-scrollbar {
+    display: none;
+}
 .main .hay88-text{
     font-size: clamp(0.8rem, 0.6rem + 0.6vw, 1.1rem);
 }

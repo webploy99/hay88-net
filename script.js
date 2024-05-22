@@ -7,6 +7,11 @@ menuicon.addEventListener("click", function () {
   navMenu.classList.toggle("active");
 });
 
+ // url
+    function url() {
+        location.href="https://www.hay8833.com/?inviteCode=3128320";
+    }
+
 // When the user clicks on the button, scroll to the top of the document
     function topScroll() {
         document.body.scrollTop = 0;
